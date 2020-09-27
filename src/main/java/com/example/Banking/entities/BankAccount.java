@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 // cấu hình, mapping đến bank_account ở trong database 
 @Entity // 1 annotation nói class này là 1 entity.
-@Table(name = "bank_Account")  // nói rằng entity này mapping đến table bank_account trong DB
+@Table(name = "Bank_Account")  // nói rằng entity này mapping đến table bank_account trong DB
 
 public class BankAccount {
 	@Id  // đây là id khóa chính
